@@ -1,1 +1,10 @@
-{}
+{
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "5. Attachments",
+  "promptDelete": false
+}

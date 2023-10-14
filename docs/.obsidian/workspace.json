@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "0362f5e1a19ece3f",
+    "id": "2cf08fd527f823d8",
     "type": "split",
     "children": [
       {
-        "id": "55b28b31dc122f8c",
+        "id": "3d5ac76215f1d7da",
         "type": "tabs",
         "children": [
           {
-            "id": "a133e815749ef4fc",
+            "id": "f94a0fee264101f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. nodeGuide.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8f706fa5b38cb67e",
+    "id": "9d3637e85c735b99",
     "type": "split",
     "children": [
       {
-        "id": "ce99956f491a85a5",
+        "id": "11124f0a769a5e7f",
         "type": "tabs",
         "children": [
           {
-            "id": "28fc676b1335cbda",
+            "id": "cafc24d8f8146716",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +43,7 @@
             }
           },
           {
-            "id": "566aa8d732bf87da",
+            "id": "5b44dd3db79ea540",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,33 +58,43 @@
             }
           },
           {
-            "id": "3ca574f855861a47",
+            "id": "b627fbefcb588c4d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "4beabd505b575e6e",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "f9dd8c2945fdc4d8",
+    "id": "7034f07ac9b9c459",
     "type": "split",
     "children": [
       {
-        "id": "ec28ad45aa05f462",
+        "id": "dd9d8b4b5198d612",
         "type": "tabs",
         "children": [
           {
-            "id": "2a138c8dbb0db175",
+            "id": "fa5ec484ed5cc012",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. nodeGuide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +106,19 @@
             }
           },
           {
-            "id": "238cdd11d2b93209",
+            "id": "4c2cf6c2a8356cc1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PARA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7026d364df53e970",
+            "id": "859765a24f9f81a3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,10 +129,20 @@
             }
           },
           {
-            "id": "1c26aab2ba7601df",
+            "id": "4fdd04fa4642851e",
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "1. nodeGuide.md"
+              }
+            }
+          },
+          {
+            "id": "3f656b0bf3680ab6",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -125,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -133,11 +158,52 @@
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a133e815749ef4fc",
-  "lastOpenFiles": []
+  "active": "f94a0fee264101f7",
+  "lastOpenFiles": [
+    "2023-10-14.md",
+    "1. nodeGuide.md",
+    "Context/spacesLastSync.log",
+    "Context",
+    "3. Resouces/무제 (Untitled-1003).md",
+    "3. Resouces/‘You’ve got to find what you love,’ Jobs says.md",
+    "3. Resouces/3. Resouces.md",
+    "hello W0rld (PARA).md",
+    "4. Archive/4. Archive.md",
+    "2. Areas/2. Areas.md",
+    "1. Projects/1. Projects.md",
+    "paraFlow.png",
+    "Project.md",
+    "Excalidraw/Excalidraw.md",
+    "Excalidraw/Drawing 2023-10-03 14.03.26.excalidraw.md",
+    "무제 파일.canvas",
+    "Excalidraw",
+    "Paste.md",
+    "Context/Context.md",
+    "1. Projects/context.mdb",
+    "1. Projects/옵시디언 PARA 프로젝트 생성/옵시디언 PARA 프로젝트 생성.md",
+    "1. Projects/옵시디언 PARA 프로젝트 생성/무제 파일.md",
+    "1. Projects/옵시디언 PARA 프로젝트 생성/context.mdb",
+    "1. Projects/옵시디언 PARA 프로젝트 생성",
+    "1. Projects/무제 파일.md",
+    "Workflows.md",
+    "Methodology.md",
+    "2. Areas/Blog/Feedback sessions.md",
+    "2. Areas/Blog/Blog.md",
+    "1. Projects/Notes Migration/Notes Migration.md",
+    "1. Projects/Obsidian Theme/Things to look into.md",
+    "1. Projects/Obsidian Theme/Obsidian Theme.md",
+    "1. Projects/PARA Starter Kit/Outline.md",
+    "1. Projects/PARA Starter Kit/Methodology.md",
+    "IMG_0293.png.~tmp",
+    "1. Projects/PARA Starter Kit",
+    "1. Projects/Obsidian Theme",
+    "1. Projects/Notes Migration",
+    "IMG_0293 1.png"
+  ]
 }

@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "4562ffc320529f9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2a603f582e01847",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0b9e4bd2645bb13",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6743106718214193",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "daa26ce73c706c81",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "be07980eb71bb7ef",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4e659eed6e7bd6b6",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "9a6c4ecd0d541fbe",
+        "type": "leaf",
+        "state": {
+          "type": "mk-file-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "right": {
+    "id": "1ba795bf97e8bc61",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "941f0aaba02d3448",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "479d3096ab1ddd3e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "PARA.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ff470f7f17e05d64",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "d0b9e4bd2645bb13",
+  "lastOpenFiles": [
+    "3. Resouces/‘You’ve got to find what you love,’ Jobs says.md",
+    "3. Resouces/무제 (Untitled-1003).md",
+    "1. Projects/1. Projects.md",
+    "hello W0rld (PARA).md",
+    "IMG_0293.png",
+    "무제 파일.md",
+    "Context/spacesLastSync.log",
+    "Context",
+    "IMG_0293 1.png",
+    "PARA.md"
+  ]
+}
