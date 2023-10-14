@@ -1,0 +1,29 @@
+{
+  "name": "p_nodejs",
+  "version": "1.0.0",
+  "description": "archive : Node.js projects implemented 4 study (author : doil)",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D0iloppa/p_nodeJS.git"
+  },
+  "author": "doil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D0iloppa/p_nodeJS/issues"
+  },
+  "homepage": "https://github.com/D0iloppa/p_nodeJS#readme",
+  "dependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
