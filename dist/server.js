@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const path_1 = __importDefault(require("path"));
+const snapBouncer_1 = require("./dModules/snapBouncer");
 const d_Conf = {
     // @ Protocol
     "protocol": "http",
@@ -25,11 +26,13 @@ router.get(`/`, (req, res) => {
 });
 // catchall
 router.get("/*", (req, res) => res.redirect("/"));
+const snapBouncer = new snapBouncer_1.SnapBouncer();
 const d_Server = (0, express_1.default)();
 // EJS 뷰 엔진 설정
 d_Server.set("view engine", "ejs");
 d_Server.set("views", path_1.default.join(__dirname, "public")); // "public" 디렉토리에 뷰 파일들을 저장
 d_Server.use(`/${d_Conf.context_root}`, router);
+snapBouncer.test();
 ////////////////////* routing section end */
 // listen handler
 const handleListen = () => {

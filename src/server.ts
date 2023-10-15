@@ -1,5 +1,7 @@
 import express, { Router, Request, Response } from 'express';
 import path from "path";
+import { SnapBouncer } from './dModules/snapBouncer';
+
 
 
 interface ServerConfig {
@@ -37,6 +39,8 @@ router.get("/*", (req: Request, res: Response) =>
     res.redirect("/")
 );
 
+const snapBouncer = new SnapBouncer(); 
+
 const d_Server = express();
 // EJS 뷰 엔진 설정
 d_Server.set("view engine", "ejs");
@@ -45,9 +49,7 @@ d_Server.set("views", path.join(__dirname, "public")); // "public" 디렉토리�
 d_Server.use(`/${d_Conf.context_root}`, router);
 
 
-
-
-
+snapBouncer.test();
 
 
 ////////////////////* routing section end */

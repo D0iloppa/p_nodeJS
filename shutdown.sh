@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find the process ID of the node process and kill it
-pid=`ps -ef | grep "babel-node src/server.js" | grep -v grep | awk '{print $2}'`
+pid=`ps -ef | grep "node dist/server.js" | grep -v grep | awk '{print $2}'`
 if [ -n "$pid" ]; then
   echo "Killing process $pid"
   kill -9 $pid

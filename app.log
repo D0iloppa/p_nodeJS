@@ -7,11 +7,471 @@
 [33m[nodemon] watching path(s): src/**/*[39m
 [33m[nodemon] watching extensions: ts,json[39m
 [32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:3468) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
 
       ##########################################################
         😎 Welcome to DOIL's dev SERVER (by express) 😎
-        🐳 Server listening on local port 13939  at 2023. 10. 14. 토요일 오전 10:21:43
+        🐳 Server listening on local port 13939  at 2023. 10. 15. 일요일 오후 2:33:57
         site : http://doiloppa.iptime.org:80/p_nodeJS/
         local : http://127.0.0.1:13939/p_nodeJS/
       ##########################################################
       
+node:internal/deps/undici/undici:11118
+    Error.captureStackTrace(err, this);
+          ^
+
+TypeError: Failed to parse URL from /models/ssd_mobilenetv1_model-weights_manifest.json
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  [cause]: TypeError [ERR_INVALID_URL]: Invalid URL
+      at new NodeError (node:internal/errors:393:5)
+      at URL.onParseError (node:internal/url:565:9)
+      at new URL (node:internal/url:645:5)
+      at new Request (node:internal/deps/undici/undici:9472:25)
+      at Agent.fetch2 (node:internal/deps/undici/undici:10291:25)
+      at Object.fetch (node:internal/deps/undici/undici:11116:28)
+      at fetch (node:internal/process/pre_execution:216:25)
+      at Object.<anonymous> (/Users/doil/4dev/p_nodeJS/node_modules/tfjs-image-recognition-base/build/commonjs/dom/fetchOrThrow.js:12:42)
+      at step (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:141:27)
+      at Object.next (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:122:57) {
+    input: '/models/ssd_mobilenetv1_model-weights_manifest.json',
+    code: 'ERR_INVALID_URL'
+  }
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,22): error TS2307: Cannot find module '@tensorflow/tfjs' or its corresponding type declarations.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4194) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:13939
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 13939
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,22): error TS2307: Cannot find module '@tensorflow/tfjs' or its corresponding type declarations.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4188) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+      ##########################################################
+        😎 Welcome to DOIL's dev SERVER (by express) 😎
+        🐳 Server listening on local port 13939  at 2023. 10. 15. 일요일 오후 2:38:22
+        site : http://doiloppa.iptime.org:80/p_nodeJS/
+        local : http://127.0.0.1:13939/p_nodeJS/
+      ##########################################################
+      
+node:internal/deps/undici/undici:11118
+    Error.captureStackTrace(err, this);
+          ^
+
+TypeError: Failed to parse URL from /models/ssd_mobilenetv1_model-weights_manifest.json
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  [cause]: TypeError [ERR_INVALID_URL]: Invalid URL
+      at new NodeError (node:internal/errors:393:5)
+      at URL.onParseError (node:internal/url:565:9)
+      at new URL (node:internal/url:645:5)
+      at new Request (node:internal/deps/undici/undici:9472:25)
+      at Agent.fetch2 (node:internal/deps/undici/undici:10291:25)
+      at Object.fetch (node:internal/deps/undici/undici:11116:28)
+      at fetch (node:internal/process/pre_execution:216:25)
+      at Object.<anonymous> (/Users/doil/4dev/p_nodeJS/node_modules/tfjs-image-recognition-base/build/commonjs/dom/fetchOrThrow.js:12:42)
+      at step (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:141:27)
+      at Object.next (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:122:57) {
+    input: '/models/ssd_mobilenetv1_model-weights_manifest.json',
+    code: 'ERR_INVALID_URL'
+  }
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,22): error TS2307: Cannot find module '@tensorflow/tfjs' or its corresponding type declarations.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is missing the following properties from type 'HTMLCanvasElement': captureStream, toBlob, transferControlToOffscreen, addEventListener, and 293 more.
+src/dModules/snapBouncer.ts(33,41): error TS2322: Type 'typeof Image' is not assignable to type '{ new (): HTMLImageElement; prototype: HTMLImageElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettings | undefined): ImageData; prototype: ImageData; }'.
+  Types of property 'prototype' are incompatible.
+    Property 'colorSpace' is missing in type 'import("/Users/doil/4dev/p_nodeJS/node_modules/canvas/types/index").ImageData' but required in type 'ImageData'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+/Users/doil/4dev/p_nodeJS/dist/server.js:29
+const snapBouncer = new snapBouncer_1.SnapBouncer();
+                    ^
+
+TypeError: snapBouncer_1.SnapBouncer is not a constructor
+    at Object.<anonymous> (/Users/doil/4dev/p_nodeJS/dist/server.js:29:21)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+ Type 'Image' is missing the following properties from type 'HTMLImageElement': align, alt, border, crossOrigin, and 308 more.
+src/dModules/snapBouncer.ts(33,48): error TS2322: Type 'typeof ImageData' is not assignable to type '{ new (sw: number, sh: number, settings?: ImageDataSettings | undefined): ImageData; new (data: Uint8ClampedArray, sw: number, sh?: number | undefined, settings?: ImageDataSettingssrc/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+src/dModules/snapBouncer.ts(33,33): error TS2322: Type 'typeof Canvas' is not assignable to type '{ new (): HTMLCanvasElement; prototype: HTMLCanvasElement; }'.
+  Types of property 'prototype' are incompatible.
+    Type 'Canvas' is[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4190) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:13939
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 13939
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+ing...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4189) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:13939
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 13939
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+5: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4187) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+      ##########################################################
+        😎 Welcome to DOIL's dev SERVER (by express) 😎
+        🐳 Server listening on local port 13939  at 2023. 10. 15. 일요일 오후 2:38:22
+        site : http://doiloppa.iptime.org:80/p_nodeJS/
+        local : http://127.0.0.1:13939/p_nodeJS/
+      ##########################################################
+      
+nodecpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4193) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:13939
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at doListen (node:net:1682:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -48,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 13939
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+       local : http://127.0.0.1:13939/p_nodeJS/
+      ##########################################################
+      
+node:internal/deps/undici/undici:11118
+    Error.captureStackTrace(err, this);
+          ^
+
+TypeError: Failed to parse URL from /models/ssd_mobilenetv1_model-weights_manifest.json
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  [cause]: TypeError [ERR_INVALID_URL]: Invalid URL
+      at new NodeError (node:internal/errors:393:5)
+      at URL.onParseError (node:internal/url:565:9)
+      at new URL (node:internal/url:645:5)
+      at new Request (node:internal/deps/undici/undici:9472:25)
+      at Agent.fetch2 (node:internal/deps/undici/undici:10291:25)
+      at Object.fetch (node:internal/deps/undici/undici:11116:28)
+      at fetch (node:internal/process/pre_execution:216:25)
+      at Object.<anonymous> (/Users/doil/4dev/p_nodeJS/node_modules/tfjs-image-recognition-base/build/commonjs/dom/fetchOrThrow.js:12:42)
+      at step (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:141:27)
+      at Object.next (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:122:57) {
+    input: '/models/ssd_mobilenetv1_model-weights_manifest.json',
+    code: 'ERR_INVALID_URL'
+  }
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+src/dModules/snapBouncer.ts(7,10): error TS2305: Module '"@tensorflow/tfjs"' has no exported member 'load'.
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `npx tsc && node dist/server.js`[39m
+cpu backend was already registered. Reusing existing backend
+FACEAPI not loaded yet.
+(node:4195) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+      ##########################################################
+        😎 Welcome to DOIL's dev SERVER (by express) 😎
+        🐳 Server listening on local port 13939  at 2023. 10. 15. 일요일 오후 2:38:22
+        site : http://doiloppa.iptime.org:80/p_nodeJS/
+        local : http://127.0.0.1:13939/p_nodeJS/
+      ##########################################################
+      
+node:internal/deps/undici/undici:11118
+    Error.captureStackTrace(err, this);
+          ^
+
+TypeError: Failed to parse URL from /models/ssd_mobilenetv1_model-weights_manifest.json
+    at Object.fetch (node:internal/deps/undici/undici:11118:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  [cause]: TypeError [ERR_INVALID_URL]: Invalid URL
+      at new NodeError (node:internal/errors:393:5)
+      at URL.onParseError (node:internal/url:565:9)
+      at new URL (node:internal/url:645:5)
+      at new Request (node:internal/deps/undici/undici:9472:25)
+      at Agent.fetch2 (node:internal/deps/undici/undici:10291:25)
+      at Object.fetch (node:internal/deps/undici/undici:11116:28)
+      at fetch (node:internal/process/pre_execution:216:25)
+      at Object.<anonymous> (/Users/doil/4dev/p_nodeJS/node_modules/tfjs-image-recognition-base/build/commonjs/dom/fetchOrThrow.js:12:42)
+      at step (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:141:27)
+      at Object.next (/Users/doil/4dev/p_nodeJS/node_modules/tslib/tslib.js:122:57) {
+    input: '/models/ssd_mobilenetv1_model-weights_manifest.json',
+    code: 'ERR_INVALID_URL'
+  }
+}
+
+Node.js v18.12.1
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
